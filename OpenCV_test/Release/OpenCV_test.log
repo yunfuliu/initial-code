@@ -1,0 +1,39 @@
+﻿已經開始建置於 2014/12/24 下午 12:31:39。
+     1>節點 2 (build 目標) 上的專案 "D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\OpenCV_test\OpenCV_test.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\OpenCV_test.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\program\OpenCV247\opencv\builds\install\include /ID:\program\OpenCV247\opencv\builds\install\include\opencv /ID:\program\OpenCV247\opencv\builds\install\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\program\opencv247\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\program\opencv247\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\program\opencv247\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>d:\program\opencv247\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\program\opencv247\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\program\OpenCV247\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>main.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\Release\OpenCV_test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\program\OpenCV247\opencv\build\x86\vc10\lib opencv_calib3d247.lib opencv_calib3d247d.lib opencv_contrib247.lib opencv_contrib247d.lib opencv_core247.lib opencv_core247d.lib opencv_features2d247.lib opencv_features2d247d.lib opencv_flann247.lib opencv_flann247d.lib opencv_gpu247.lib opencv_gpu247d.lib opencv_highgui247.lib opencv_highgui247d.lib opencv_imgproc247.lib opencv_imgproc247d.lib opencv_legacy247.lib opencv_legacy247d.lib opencv_ml247.lib opencv_ml247d.lib opencv_nonfree247.lib opencv_nonfree247d.lib opencv_objdetect247.lib opencv_objdetect247d.lib opencv_ocl247.lib opencv_ocl247d.lib opencv_photo247.lib opencv_photo247d.lib opencv_stitching247.lib opencv_stitching247d.lib opencv_superres247.lib opencv_superres247d.lib opencv_ts247.lib opencv_ts247d.lib opencv_video247.lib opencv_video247d.lib opencv_videostab247.lib opencv_videostab247d.lib /MANIFEST /ManifestFile:"Release\OpenCV_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\Release\OpenCV_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\Release\OpenCV_test.lib" /MACHINE:X86 Release\ADbtc.obj
+         Release\AMbtc.obj
+         Release\btc.obj
+         Release\DDbtc.obj
+         Release\EDbtc.obj
+         Release\HPSNR.obj
+         Release\main.obj
+         Release\ODbtc.obj
+         正在產生程式碼
+     1>d:\實驗室\addbtc\最終版本(清除所有計算程式)\opencv_test\adbtc.cpp(131): warning C4715: 'arrange_CM' : 不是所有控制路徑都傳回值
+         已完成程式碼產生
+         OpenCV_test.vcxproj -> D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\Release\OpenCV_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\Release\OpenCV_test.exe;#1" /manifest Release\OpenCV_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\OpenCV_test.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\OpenCV_test.lastbuildstate"。
+     1>專案 "D:\實驗室\ADDBTC\最終版本(清除所有計算程式)\OpenCV_test\OpenCV_test.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.89
